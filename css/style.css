@@ -27,8 +27,12 @@ main .container p {
     text-align: center;
 }
 
+a {
+    color: rgb(0 175 228);
+}
+
 .container {
-    width: 1135px;
+    width: 1065px;
     margin: auto;
     padding: 2rem;
 }
@@ -58,9 +62,12 @@ main .container p {
 }
 
 .cont1 {
-    background-color: #000000;
-    color: #ffffff;
-    width: 320px;
+    width: 220px;
     height: 100px;
+    float: right;
+    background-color: black;
+    color: white;
     display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
 }
