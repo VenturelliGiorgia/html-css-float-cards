@@ -41,7 +41,7 @@ main .container p {
 
 .image {
     width: 100px;
-    box-shadow: -1px 1px 10px #000;
+    box-shadow: -1px 1px 10px #000000;
 }
 
 .row .col.cont1 {
@@ -58,8 +58,8 @@ main .container p {
 }
 
 .cont1 {
-    background-color: black;
-    color: red;
+    background-color: #000000;
+    color: #ffffff;
     width: 320px;
     height: 100px;
     display: inline-block;
