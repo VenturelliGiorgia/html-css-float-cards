@@ -19,12 +19,48 @@ header h1 {
     margin-bottom: 0;
 }
 
+h3 {
+    display: inline-block;
+}
+
 main .container p {
     text-align: center;
 }
 
 .container {
-    width: 920px;
+    width: 1135px;
     margin: auto;
     padding: 2rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    width: 100px;
+    box-shadow: -1px 1px 10px #000;
+}
+
+.row .col.cont1 {
+    float: left;
+    width: calc((100% / 3) - (30px / 3));
+}
+
+.row .col:not(:last-child) {
+    margin-right: 15px;
+}
+
+.col {
+    display: inline-block;
+}
+
+.cont1 {
+    background-color: black;
+    color: red;
+    width: 320px;
+    height: 100px;
+    display: inline-block;
 }
